@@ -21,7 +21,7 @@ const Tabs = (topics) => {
     const tabsDiv123 = document.createElement("div");
     tabsDiv123.classList.add("tab");
     tabsDiv123.textContent = elem;
-    return tabsDiv;
+    return tabsDiv123;
   });
   tabsElem.forEach((elem) => {
     tabsDiv.appendChild(elem);
